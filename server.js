@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Enable CORS for all routes
 app.use(cors({
-    origin: 'https://main--bookbranch.netlify.app',
+    origin: 'https://bookbranch.netlify.app',
     credentials:true
   }));
 
